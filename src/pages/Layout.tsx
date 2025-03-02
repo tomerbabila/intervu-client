@@ -1,10 +1,10 @@
 import { Outlet } from "react-router";
-import "./App.css";
+import Header from "@/components/layout/Header";
 
 function Layout() {
   return (
     <>
-      <h1>header</h1>
+      <Header />
       <Outlet />
     </>
   );
