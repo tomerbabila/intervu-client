@@ -1,4 +1,4 @@
-import Icon from "../icon/Icon";
+import Icon from "../general/icon/Icon";
 
 function Footer() {
   return (

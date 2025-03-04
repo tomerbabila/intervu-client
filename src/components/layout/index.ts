@@ -1,4 +1,5 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { ThemeProvider, useTheme } from "./ThemeProvider";
 
-export { Header, Footer };
+export { Header, Footer, ThemeProvider, useTheme };

@@ -1,6 +1,5 @@
 import { Outlet } from "react-router";
-import { Header, Footer } from "@/components/layout";
-import { ThemeProvider } from "@/components/layout/ThemeProvider";
+import { Header, Footer, ThemeProvider } from "@/components/layout";
 
 function Layout() {
   return (

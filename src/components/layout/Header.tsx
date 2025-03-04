@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import Icon from "../icon/Icon";
+import { Icon } from "@/components/general";
 import { buttonVariants } from "../ui/button";
 
 function Header() {
