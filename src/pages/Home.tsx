@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
-import Hero from "@/components/home/Hero";
+import { Hero, Features } from "@/components/home";
 
 function Home() {
   return (
     <>
       <Hero />
+      <Features />
     </>
   );
 }
