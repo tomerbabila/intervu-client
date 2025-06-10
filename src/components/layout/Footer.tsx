@@ -41,7 +41,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center text-gray-500 text-sm mt-6">
-        © {new Date().getFullYear()} JobPrep. All Rights Reserved.
+        © {new Date().getFullYear()} INTERVU. All Rights Reserved.
       </div>
     </footer>
   );
