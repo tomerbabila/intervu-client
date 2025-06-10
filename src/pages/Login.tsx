@@ -3,7 +3,6 @@ import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Separator } from "@/components/ui/separator";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -30,7 +29,7 @@ function Login() {
                 required
                 value={email}
                 onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
-                placeholder="Enter your email here"
+                placeholder="you@intervu.com"
               />
             </div>
             <div className="grid w-full max-w-sm items-center gap-3">
@@ -41,12 +40,11 @@ function Login() {
                 required
                 value={password}
                 onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
-                placeholder="Enter your password here"
+                placeholder="••••••••"
               />
             </div>
           </CardContent>
-          <Separator className="my-4" />
-          <CardFooter>
+          <CardFooter className="mt-4">
             <Button type="submit" className="w-full">
               Login
             </Button>
